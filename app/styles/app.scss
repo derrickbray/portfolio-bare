@@ -6,3 +6,21 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-sizing';
 @import 'nav';
 @import 'hero';
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 1rem;
+    width: calc(100% / 3 - 2rem);
+    padding: 1rem;
+
+    &__image {
+      object-fit: contain;
+    }
+  }
+}
