@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+
+  &__title {
+    margin: 0 1rem;
+  }
+}
+
+.icon-box {
+  a {
+    color: black;
+  }
+}

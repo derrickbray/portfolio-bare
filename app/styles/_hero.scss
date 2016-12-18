@@ -1,0 +1,17 @@
+.hero {
+  padding: 4rem;
+  &-image {
+    height: 80vh;
+    background: url('../blackwhitetree.jpg') no-repeat center center fixed;
+
+    &__title {
+      margin: 2rem;
+      color: white;
+    }
+
+    &__tag {
+      margin: 2rem;
+      color: white;
+    }
+  }
+}
