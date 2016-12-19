@@ -1,0 +1,36 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem;
+
+  &-item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-grow: 1;
+    width: calc(100% / 3 - 2rem);
+    min-width: 20rem;
+    filter: grayscale(90%);
+
+    &__tag {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 0.4rem;
+      background: white;
+      color: black;
+    }
+
+    &:hover {
+      filter: opacity(50%);
+
+      .grid-item__tag {
+        display: block;
+        color: black;
+      }
+    }
+
+  }
+}

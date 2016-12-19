@@ -6,40 +6,38 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-sizing';
 @import 'nav';
 @import 'hero';
+@import 'grid';
 
-.grid {
+.left {
   display: flex;
-  flex-wrap: wrap;
-  padding: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  min-width: 22.6rem;
+  height: 100vh;
+  background: url('../plankbridge.jpg') no-repeat center fixed;
 
-  &-item {
+  &-skill {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+.right {
+  display: flex;
+  flex-grow: 1;
+
+  &-skill {
     display: flex;
-    position: relative;
     flex-direction: column;
     flex-grow: 1;
-    width: calc(100% / 3 - 2rem);
-    filter: grayscale(90%);
-
-    &__tag {
-      display: none;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      border: 1px solid black;
-      border-radius: 0.4rem;
-      background: white;
-      color: black;
-    }
-
-    &:hover {
-      filter: opacity(50%);
-
-      .grid-item__tag {
-        display: block;
-        color: black;
-      }
-    }
-
+    justify-content: center;
+    padding: 4rem;
+    text-align: center;
   }
+}
+
+.skillz {
+  width: 50%;
 }
