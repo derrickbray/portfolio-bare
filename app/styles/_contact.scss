@@ -1,0 +1,13 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  background: url('../bridge.jpg') no-repeat center right fixed;
+  color: white;
+  text-align: center;
+
+  a {
+    color: white;
+  }
+}
