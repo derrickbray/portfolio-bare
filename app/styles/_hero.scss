@@ -1,6 +1,9 @@
 .hero {
   padding: 4rem;
   &-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 80vh;
     background: url('../blackwhitetree.jpg') no-repeat center center fixed;
 
@@ -16,4 +19,8 @@
       font-size: 2rem;
     }
   }
+}
+
+.orange {
+  color: #ff8200;
 }
