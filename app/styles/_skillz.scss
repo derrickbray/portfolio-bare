@@ -4,11 +4,14 @@
 
 .skill {
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   flex-grow: 1;
-  justify-content: center;
+  justify-content: flex-end;
   width: 100%;
   height: 90vh;
   background: url('../plankbridge.jpg') no-repeat center fixed;
 
+  &-item {
+
+  }
 }
