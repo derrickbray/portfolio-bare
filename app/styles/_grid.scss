@@ -1,7 +1,12 @@
+.pad {
+  padding: 4rem;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
-  padding: 4rem;
+  // padding: 4rem;
+  background: black;
 
   &-item {
     display: flex;
@@ -10,6 +15,7 @@
     flex-grow: 1;
     width: calc(100% / 3 - 2rem);
     min-width: 20rem;
+    margin: 1rem;
     filter: grayscale(90%);
 
     &__tag {
@@ -30,7 +36,7 @@
     }
 
     &:hover {
-      border: 1px solid grey;
+      // border: 1px solid white;
       filter: opacity(75%);
 
       .grid-item__tag {
