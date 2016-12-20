@@ -37,7 +37,7 @@
 
     &:hover {
       // border: 1px solid white;
-      filter: opacity(75%);
+      filter: grayscale(1%);
 
       .grid-item__tag {
         display: block;
