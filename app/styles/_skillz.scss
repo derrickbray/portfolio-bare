@@ -11,7 +11,18 @@
   height: 90vh;
   background: url('../plankbridge.jpg') no-repeat center fixed;
 
-  &-item {
+  &-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // margin: 1rem;
+    padding: 1rem;
 
+
+    &__item {
+      margin: 1rem 1rem;
+
+      color: white;
+    }
   }
 }
