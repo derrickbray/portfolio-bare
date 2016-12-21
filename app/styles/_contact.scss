@@ -5,7 +5,8 @@
   height: 70vh;
   margin: 4rem;
   // padding: 1rem;
-  background: url('../bridge.jpg') no-repeat center right fixed;
+  background: url('../bridge.jpg') no-repeat fixed;
+  background-size: cover;
   color: white;
 
   &-text {
