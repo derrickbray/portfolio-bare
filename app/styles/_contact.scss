@@ -2,13 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 70vh;
+  height: 85vh;
   margin: 4rem;
-  // padding: 1rem;
   background: url('../tree-star.jpg') no-repeat fixed;
   background-size: cover;
   color: white;
-  // filter: grayscale(100%);
 
   &-text {
     justify-content: flex-start;
@@ -19,7 +17,5 @@
   a {
     color: white;
     text-decoration: none;
-    // filter: grayscale(0%);
-
   }
 }

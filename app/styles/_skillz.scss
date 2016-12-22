@@ -4,7 +4,6 @@
 
 .skill {
   display: flex;
-  // flex-direction: column;
   flex-grow: 1;
   justify-content: flex-end;
   width: 100%;
@@ -22,7 +21,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    // margin: 1rem;
     padding: 1rem;
 
     &__item {
