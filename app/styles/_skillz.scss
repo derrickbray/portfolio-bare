@@ -12,6 +12,12 @@
   background: url('../books.jpg') no-repeat fixed;
   background-size: cover;
 
+  &-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   &-box {
     display: flex;
     flex-direction: column;

@@ -15,3 +15,12 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   color: white;
   text-decoration: none;
 }
+
+.orange {
+  color: #ff8200;
+
+  a {
+    color: #ff8200;
+    // filter: grayscale(0);
+  }
+}

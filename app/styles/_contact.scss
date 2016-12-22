@@ -5,9 +5,10 @@
   height: 70vh;
   margin: 4rem;
   // padding: 1rem;
-  background: url('../bridge.jpg') no-repeat fixed;
+  background: url('../tree-star.jpg') no-repeat fixed;
   background-size: cover;
   color: white;
+  // filter: grayscale(100%);
 
   &-text {
     justify-content: flex-start;
@@ -18,5 +19,7 @@
   a {
     color: white;
     text-decoration: none;
+    // filter: grayscale(0%);
+
   }
 }
