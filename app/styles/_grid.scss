@@ -28,6 +28,7 @@
       background: white;
       color: black;
       text-align: center;
+      z-index: 2;
 
       a {
         color: black;
@@ -44,5 +45,11 @@
       }
     }
 
+  }
+}
+
+@media(max-width: 500px)  {
+  .grid-item {
+    min-width: 10rem;
   }
 }

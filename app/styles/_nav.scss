@@ -18,3 +18,9 @@
     color: black;
   }
 }
+
+@media (max-width: 500px) {
+  .link {
+    width: 100%;
+  }
+}
