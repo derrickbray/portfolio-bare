@@ -8,6 +8,12 @@
   background-size: cover;
   color: white;
 
+  @media(max-width: 500px) {
+    background: url('../tree-star.jpg') no-repeat top center fixed;
+    background-position: fixed;
+    background-size: cover;
+  }
+
   &-text {
     justify-content: flex-start;
     margin: 0.5rem 1rem;
