@@ -11,6 +11,10 @@
   background: url('../books.jpg') no-repeat fixed;
   background-size: cover;
 
+  @media(max-width: 1000px) {
+    flex-direction: column;
+  }
+
   @media(max-width: 500px) {
     flex-direction: column;
   }
