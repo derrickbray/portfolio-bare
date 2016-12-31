@@ -9,14 +9,14 @@
   color: white;
 
   @media(max-width: 1000px) {
-    height: 100vh;
-    background: url('../tree-star.jpg') no-repeat top right fixed;
+    height: 120vh;
+    background: url('../tree-star.jpg') no-repeat fixed;
     background-size: cover;
   }
 
   @media(max-width: 500px) {
     height: 85vh;
-    background: url('../tree-star.jpg') no-repeat top right fixed;
+    background: url('../tree-star.jpg') no-repeat fixed;
     background-size: cover;
   }
 
