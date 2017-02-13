@@ -1,61 +1,61 @@
-.pad {
-  padding: 4rem;
-}
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  background: black;
-
-  &-item {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    flex-grow: 1;
-    width: calc(100% / 3 - 2rem);
-    min-width: 15rem;
-    margin: 1rem;
-    filter: grayscale(90%);
-
-    &__tag {
-      display: none;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      padding: 0.2rem;
-      transform: translate(-50%, -50%);
-      border-radius: 0.4rem;
-      background: white;
-      color: black;
-      text-align: center;
-      z-index: 2;
-
-      a {
-        color: black;
-      }
-    }
-
-    &:hover {
-      filter: grayscale(1%);
-
-      .grid-item__tag {
-        display: block;
-        color: black;
-      }
-    }
-
-  }
-}
-
-@media(max-width: 1000px) {
-  .grid-item {
-    width: calc(100% / 2 - 2rem);
-  }
-}
-
-@media(max-width: 500px)  {
-  .grid-item {
-    width: calc(100% - 2rem);
-    min-width: 10rem;
-  }
-}
+// .pad {
+//   padding: 4rem;
+// }
+//
+// .grid {
+//   display: flex;
+//   flex-wrap: wrap;
+//   background: black;
+//
+//   &-item {
+//     display: flex;
+//     position: relative;
+//     flex-direction: column;
+//     flex-grow: 1;
+//     width: calc(100% / 3 - 2rem);
+//     min-width: 15rem;
+//     margin: 1rem;
+//     filter: grayscale(90%);
+//
+//     &__tag {
+//       display: none;
+//       position: absolute;
+//       top: 50%;
+//       left: 50%;
+//       padding: 0.2rem;
+//       transform: translate(-50%, -50%);
+//       border-radius: 0.4rem;
+//       background: white;
+//       color: black;
+//       text-align: center;
+//       z-index: 2;
+//
+//       a {
+//         color: black;
+//       }
+//     }
+//
+//     &:hover {
+//       filter: grayscale(1%);
+//
+//       .grid-item__tag {
+//         display: block;
+//         color: black;
+//       }
+//     }
+//
+//   }
+// }
+//
+// @media(max-width: 1000px) {
+//   .grid-item {
+//     width: calc(100% / 2 - 2rem);
+//   }
+// }
+//
+// @media(max-width: 500px)  {
+//   .grid-item {
+//     width: calc(100% - 2rem);
+//     min-width: 10rem;
+//   }
+// }
