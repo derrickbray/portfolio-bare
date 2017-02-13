@@ -49,7 +49,6 @@
       }
     }
 
-
     &-pic {
       display: block;
       width: 100%;
@@ -59,5 +58,16 @@
       filter: brightness(20%);
 
     }
+  }
+}
+@media(max-width: 1000px) {
+  .grid-item {
+    width: calc(100% / 2 - 2rem);
+  }
+}
+@media(max-width: 500px) {
+  .grid-item {
+    width: calc(100% - 2rem);
+    min-width: 10rem;
   }
 }
