@@ -13,9 +13,11 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 
   &__item {
     position: relative;
+    flex-grow: 1;
     width: calc(100% / 3);
     min-width: 15rem;
     margin: 0 auto;
@@ -59,6 +61,7 @@
 }
 @media(max-width: 1000px) {
   .grid-item {
+    flex-grow: 1;
     width: calc(100% / 2);
   }
 }
