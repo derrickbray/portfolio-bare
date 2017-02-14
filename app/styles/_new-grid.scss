@@ -58,6 +58,10 @@
   }
 }
 @media(max-width: 500px) {
+  .grid {
+    max-width: 15.1rem;
+  }
+
   .grid-item {
     flex-direction: column;
     width: 100%;
