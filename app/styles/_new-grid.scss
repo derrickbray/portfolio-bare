@@ -13,11 +13,9 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  // box-shadow: 0.2rem 0.2rem 0.4rem rgba(0,0,0,0.4);
 
   &__item {
     position: relative;
-    // flex-grow: 1;
     width: calc(100% / 3);
     min-width: 15rem;
     margin: 0 auto;
@@ -39,7 +37,6 @@
       width: 100%;
       margin: 0;
       padding: 0.5rem;
-      // color: $c-primary;
       color: white;
       font-family: 'Roboto Condensed', sans-serif;
       text-align: center;
