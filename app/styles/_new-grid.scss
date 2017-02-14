@@ -2,16 +2,16 @@
 // }
 
 .grid {
-  padding: 4rem;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  // width: 100%;
+  padding: 4rem;
 
   &__item {
     position: relative;
     flex-grow: 1;
     width: calc(100% / 3);
-    min-width: 15rem;
+    min-width: 20rem;
     margin: 0 auto;
 
     &:hover {
@@ -60,6 +60,6 @@
 @media(max-width: 500px) {
   .grid-item {
     width: 100%;
-    min-width: 10rem;
+    // min-width: 15rem;
   }
 }
