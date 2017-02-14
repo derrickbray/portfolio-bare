@@ -51,15 +51,16 @@
     }
   }
 }
-// @media(max-width: 1000px) {
-//   .grid-item {
-//     flex-grow: 1;
-//     width: calc(100% / 2);
-//   }
-// }
-// @media(max-width: 500px) {
-//   .grid-item {
-//     width: 100%;
-//     // min-width: 15rem;
-//   }
-// }
+@media(max-width: 1000px) {
+  .grid-item {
+    // flex-grow: 1;
+    width: calc(100% / 2);
+  }
+}
+@media(max-width: 500px) {
+  .grid-item {
+    flex-direction: column;
+    width: 100%;
+    // min-width: 10rem;
+  }
+}
