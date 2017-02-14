@@ -11,7 +11,7 @@
     position: relative;
     flex-grow: 1;
     width: calc(100% / 3);
-    min-width: 20rem;
+    min-width: 15rem;
     margin: 0 auto;
 
     &:hover {
@@ -51,15 +51,15 @@
     }
   }
 }
-@media(max-width: 1000px) {
-  .grid-item {
-    flex-grow: 1;
-    width: calc(100% / 2);
-  }
-}
-@media(max-width: 500px) {
-  .grid-item {
-    width: 100%;
-    // min-width: 15rem;
-  }
-}
+// @media(max-width: 1000px) {
+//   .grid-item {
+//     flex-grow: 1;
+//     width: calc(100% / 2);
+//   }
+// }
+// @media(max-width: 500px) {
+//   .grid-item {
+//     width: 100%;
+//     // min-width: 15rem;
+//   }
+// }
