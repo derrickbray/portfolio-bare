@@ -7,13 +7,11 @@
   background: url('../tree-star.jpg') no-repeat fixed;
   background-size: cover;
   color: white;
-
   @media(max-width: 1000px) {
     height: 120vh;
     background: url('../tree-star.jpg') no-repeat right bottom fixed;
     background-size: cover;
   }
-
   @media(max-width: 500px) {
     height: 85vh;
     background: url('../tree-star.jpg') no-repeat right bottom fixed;
@@ -31,7 +29,6 @@
     text-decoration: none;
   }
 }
-
 @media (max-width: 500px) {
   .contact-text {
     font-size: 1rem;
