@@ -1,17 +1,17 @@
-// .pad {
-// }
+.pad {
+  padding: 4rem;
+}
 
 .grid {
   display: flex;
   flex-wrap: wrap;
   // width: 100%;
-  padding: 4rem;
 
   &__item {
     position: relative;
     flex-grow: 1;
     width: calc(100% / 3);
-    min-width: 15rem;
+    min-width: 15.5rem;
     margin: 0 auto;
 
     &:hover {
@@ -53,18 +53,22 @@
 }
 @media(max-width: 1000px) {
   .grid-item {
-    // flex-grow: 1;
+    flex-grow: 1;
     width: calc(100% / 2);
   }
 }
 @media(max-width: 500px) {
   .grid {
-    flex-direction: column;
-    max-width: 15.1rem;
+    // flex-direction: column;
+    flex-grow: 1;
+    max-width: 100%;;
+    // margin: auto;
   }
 
   .grid-item {
+    flex-grow: 1;
     width: calc(100% / 1);
+    max-width: 100%;
     // width: 100%;
     // min-width: 10rem;
   }
