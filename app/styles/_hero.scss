@@ -1,6 +1,8 @@
 .hero {
   padding: 4rem;
-
+  @media(max-width: 500px) {
+    padding: 1.5rem;
+  }
   &-image {
     display: flex;
     flex-direction: column;
