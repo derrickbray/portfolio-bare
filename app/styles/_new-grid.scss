@@ -38,6 +38,7 @@
 
     &:hover {
       .grid__item-pic {
+        transform: scale(1.01);
         transition: 0.7s;
         filter: brightness(100%);
       }
