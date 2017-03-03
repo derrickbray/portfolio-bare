@@ -3,18 +3,18 @@
   flex-direction: column;
   justify-content: center;
   height: 85vh;
-  // padding: 4rem;
   background: url('../tree-star.jpg') no-repeat fixed;
   background-size: cover;
   color: white;
+
   @media(max-width: 1000px) {
     height: 120vh;
     background: url('../tree-star.jpg') no-repeat right bottom fixed;
     background-size: cover;
   }
+
   @media(max-width: 500px) {
     height: 85vh;
-    // padding: 1.5rem;
     background: url('../tree-star.jpg') no-repeat right bottom fixed;
     background-size: cover;
   }
