@@ -38,8 +38,10 @@
     }
 
     &:hover {
+      z-index: 10;
+
       .grid__item-pic {
-        transform: scale(1.01);
+        transform: scale(1.015);
         transition: 0.7s;
         filter: brightness(100%);
       }
