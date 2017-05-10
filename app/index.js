@@ -3,7 +3,7 @@ import 'whatwg-fetch';
 const hello = 'hello world';
 
 function message() {
-  print(hello);
+  console.log(hello);
 }
 
 message();
